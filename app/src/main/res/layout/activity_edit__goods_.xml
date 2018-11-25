@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_Goods_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/Edit_goodsprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="16"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="@dimen/fab_margin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_goodspicture"
+            android:text="选择商品图片"
+            android:layout_marginTop="@dimen/fab_margin"/>
+        <Button
+            android:id="@+id/Editgoods_makesure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认修改"
+            android:layout_marginTop="@dimen/fab_margin"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
